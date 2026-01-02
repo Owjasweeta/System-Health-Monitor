@@ -159,22 +159,6 @@ Check the `system_health.log` for a detailed log of the shell script execution.
 
 ---
 
-## Screenshots
-
-### Terminal Output
-
-Here’s an example of the system health dashboard output from the terminal:
-
-![Terminal](/Screenshots/Terminal.png "Terminal")
-
-### Email Alert
-
-Sample email alert notification when a threshold is breached:
-
-![Email](/Screenshots/Email.png "Email")
-
----
-
 ## Operating Environment
 
 - Developed and tested on **Arch Linux**, but should work on any Unix-based system with the necessary utilities installed.
