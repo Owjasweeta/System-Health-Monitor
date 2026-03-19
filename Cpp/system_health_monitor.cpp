@@ -46,7 +46,7 @@ int getActiveProcesses() {
 
 // Function to send email alert using mailx
 void sendEmailAlert(const std::string& subject, const std::string& body) {
-    std::string command = "echo '" + body + "' | mailx -s '" + subject + "' dev.ckshetty@gmail.com";
+    std::string command = "echo '" + body + "' | mailx -s '" + subject + "' owjasweeta@gmail.com";
     if (system(command.c_str()) != 0) {
         std::cerr << "Error sending email alert: " << strerror(errno) << std::endl;
     } else {
